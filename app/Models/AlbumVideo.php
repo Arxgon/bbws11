@@ -9,7 +9,7 @@ class AlbumVideo extends Model
 {
     use HasFactory;
 
-    protected $fillable = [
+     protected $fillable = [
         'title',
         'slug',
     ];

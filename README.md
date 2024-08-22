@@ -7,12 +7,16 @@ Setting up your development environment on your local machine:
 ```bash
 $ git clone https://github.com/Arxgon/bbws11.git
 $ cd bbws11
+$ composer update
 $ cp .env.example .env
 $ php artisan key:generate
 $ php artisan storage:link
+$ php artisan migrate
+$ php artisan make:filament-user
 ```
 
 ## log
+21/8 - done cp BE
 
 ## Deployment Test
 
