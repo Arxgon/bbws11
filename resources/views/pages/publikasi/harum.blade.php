@@ -146,10 +146,10 @@
             <li><i class="fas fa-play text-primary"></i><a href="{{ route('publikasi.rpsda') }}">Rencana PSDA WS Citarum</a></li>
             <li><i class="fas fa-play text-primary"></i><a href="{{ route('publikasi.rencana') }}">Rencana Strategis BBWS Citarum</a></li>
             <li><i class="fas fa-play text-primary"></i><a href="{{ route('publikasi.kinerja.lakin') }}">Laporan Kinerja BBWS Citarum</a></li>
+            <li><i class="fas fa-play text-primary"></i><a href="{{ route('publikasi.laporan-keuangan') }}">Laporan Keuangan BBWS Citarum</a></li>
             <li><i class="fas fa-play text-primary"></i><a href="{{ route('publikasi.profil') }}">Profil BBWS Citarum</a></li>
             <li><i class="fas fa-play text-primary"></i><a href="https://sda.pu.go.id/balai/bbwscitarum/galeri-foto?category=proyek-strategis-nasional">Proyek Strategis</a></li>
-            <li class="active"><i class="fas fa-play text-primary"></i><a href="{{ route('publikasi.harum') }}"><strong>Citarum Harum</strong> </a></li>
-        
+            <li class="active"><i class="fas fa-play text-primary"></i><a href="{{ route('publikasi.harum') }}"><strong>Citarum Harum</strong> </a></li>        
         </ul>
     </div>      
 </div>

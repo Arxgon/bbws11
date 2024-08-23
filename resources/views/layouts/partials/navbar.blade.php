@@ -210,7 +210,10 @@
                                                     </ul>
                                                 </li>
                                                 <li>
-                                                    <a href="{{ route('publikasi.kinerja.lakin') }}" class="dropdown-item">LAKIN BBWS Citarum</a>
+                                                    <a href="{{ route('publikasi.kinerja.lakin') }}" class="dropdown-item">Laporan Kinerja BBWS Citarum</a>
+                                                </li>
+                                                <li>
+                                                    <a href="{{ route('publikasi.laporan-keuangan') }}" class="dropdown-item">Laporan Keuangan BBWS Citarum</a>
                                                 </li>
                                                 <li>
                                                     <a href="{{ route('publikasi.profil') }}" class="dropdown-item">Profil BBWS Citarum</a>

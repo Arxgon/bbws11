@@ -14,12 +14,12 @@
 <div class="px-5 py-3 d-flex">
     <div class="p-4 row">
         <div class="col-12 col-lg-12">
-            <h1>Struktur Organisasi <small> BBWS CITARUM</small></h1>
+            <h1>Struktur Organisasi BBWS CITARUM</h1>
             <hr>
             <!-- Post Content -->
-            <a href="{{ asset('assets/img/org-structure.jpg') }}"
+            <a href="{{ asset('assets/img/info-pejabat.jpg') }}"
                 rel="prettyPhoto">
-                <img class="img-fluid" src="{{ asset('assets/img/org-structure.jpg') }}">
+                <img class="img-fluid" src="{{ asset('assets/img/info-pejabat.jpg') }}">
             </a>
 
             <div class="artikel">
