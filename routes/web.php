@@ -70,6 +70,10 @@ Route::get('/publikasi-kinerja/laporan', function () {
     return view('pages.publikasi.kinerja.laporan');
 })->name('publikasi.kinerja.laporan');
 
+Route::get('/publikasi/laporan-keuangan', function () {
+    return view('pages.publikasi.laporan-keuangan');
+})->name('publikasi.laporan-keuangan');
+
 Route::get('/publikasi/proyek', function () {
     return view('pages.publikasi.proyek');
 })->name('publikasi.proyek');
