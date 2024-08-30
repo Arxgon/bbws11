@@ -3,7 +3,7 @@
 @section('title', 'BBWS-CITARUM | Berita')
 
 @section('addcss')
-<link rel="stylesheet" href="{{ asset('css/thunderstorm.css') }}">
+{{-- <link rel="stylesheet" href="{{ asset('css/theme/sda/thunderstorm.css') }}"> --}}
 @endsection
 
 @section('content')
@@ -47,5 +47,21 @@
 @endsection
 
 @section('addjs')
+<script>
+    console.log('test')
+    var slider = new MasterSlider();
+    slider.setup('masterslider' , {
+        width:1140,
+        height:550,
+        space:0,
+        speed:10,
+        preload:"all",
+        view:"basic",
+        autoplay:!0
+    });
 
+    slider.control('arrows');
+    slider.control("circletimer",{color:"#fff",stroke:9});
+    slider.control("thumblist",{autohide:!1,dir:"h",type:"tabs",width:187.5,height:135,align:"bottom",space:0,margin:-12,hideUnder:992})
+</script>
 @endsection

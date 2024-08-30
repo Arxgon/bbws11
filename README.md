@@ -42,8 +42,11 @@ https://laravel.com/docs/11.x/releases
 
 1. Initiate laravel (use laravel 11)
 2. Setup mysql db
-a. Change the env, from sqlite to mysql. Uncommand the db user setup in env.
-b. Run ```php artisan migrate```
+<ol>
+    <li>a. Change the env, from sqlite to mysql. Uncommand the db user setup in env.</li>
+    <li>b. Run ```php artisan migrate```</li>
+</ol>
+
 3. Add filament package (https://filamentphp.com/docs/3.x/panels/installation)
 a. Run ```composer require filament/filament:"^3.2" -W```
 b. Run ```php artisan filament:install –panels```

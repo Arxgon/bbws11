@@ -114,5 +114,5 @@
 <script src="{{ asset('js/theme/custom.js') }}"></script>
 {{-- THEME INITIALIZATION --}}
 <script src="{{ asset('js/theme/theme.init.js') }}"></script>
-
+@yield('addjs')
 Knitted with love by Syahrul Ramadhan
